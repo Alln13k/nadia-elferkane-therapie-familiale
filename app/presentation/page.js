@@ -1,7 +1,6 @@
 import { ContactBanner, PageIntro } from '../../components/site/SiteChrome';
-import { PORTRAIT_DATA_URI } from '../../components/site/assetData';
 
-const portrait = PORTRAIT_DATA_URI;
+const portrait = '/images/nadia-el-ferkane-blanc.png';
 export const metadata={title:'Qui suis-je ?',description:'Le parcours de Nadia El Ferkane-Blanc, thérapeute familiale systémique à La Ciotat et Marseille.'};
 
 export default function PresentationPage(){

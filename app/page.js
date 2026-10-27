@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import { ContactBanner } from '../components/site/SiteChrome';
-import { PORTRAIT_DATA_URI } from '../components/site/assetData';
 
-const portrait = PORTRAIT_DATA_URI;
+const portrait = '/images/nadia-el-ferkane-blanc.png';
 const SERVICES = [
   ['01','Thérapie individuelle','Un espace pour déposer ce qui vous pèse et retrouver des repères qui vous correspondent.'],
   ['02','Thérapie de couple','Un accompagnement pour regarder ensemble les difficultés relationnelles et ouvrir un dialogue.'],

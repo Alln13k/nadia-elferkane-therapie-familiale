@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { EMBLEM_DATA_URI } from './assetData';
 
 const NAV = [
   ['/','Accueil'],
@@ -11,7 +10,7 @@ const NAV = [
 
 export function Brand(){
   return <Link className="logo" href="/" aria-label="Nadia El Ferkane-Blanc, accueil">
-    <img src={EMBLEM_DATA_URI} alt="" width="278" height="200" />
+    <img src="/images/embleme.png" alt="" width="278" height="200" />
     <span><strong>Nadia El Ferkane-Blanc</strong><small>Thérapeute familiale systémique</small></span>
   </Link>;
 }
