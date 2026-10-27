@@ -1,0 +1,1 @@
+The supplied portrait is staged locally at /cursor/stores/self/media/nadia-el-ferkane-blanc.png and must be copied to public/images/nadia-el-ferkane-blanc.png before deployment if the binary GitHub upload is authorized.
