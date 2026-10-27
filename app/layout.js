@@ -1,4 +1,5 @@
 import './globals.css';
+import './editorial.css';
 import { SiteFooter, SiteHeader } from '../components/site/SiteChrome';
 
 export const metadata = {
@@ -7,8 +8,8 @@ export const metadata = {
   description: 'Nadia El Ferkane-Blanc vous accompagne en thérapie individuelle, de couple et familiale à La Ciotat et Marseille.',
   keywords: ['thérapeute familiale','thérapie systémique','thérapie de couple','La Ciotat','Marseille'],
   alternates: { canonical: '/' },
-  openGraph: { type: 'website', locale: 'fr_FR', siteName: 'Nadia El Ferkane-Blanc', title: 'Nadia El Ferkane-Blanc | Thérapeute familiale systémique', description: 'Thérapie individuelle, de couple et familiale à La Ciotat et Marseille.', images: [{ url: '/images/nadia-el-ferkane-blanc.png', width: 578, height: 598 }] },
-  twitter: { card: 'summary_large_image', title: 'Nadia El Ferkane-Blanc | Thérapeute familiale systémique', description: 'Thérapie individuelle, de couple et familiale à La Ciotat et Marseille.', images: ['/images/nadia-el-ferkane-blanc.png'] },
+  openGraph: { type: 'website', locale: 'fr_FR', siteName: 'Nadia El Ferkane-Blanc', title: 'Nadia El Ferkane-Blanc | Thérapeute familiale systémique', description: 'Thérapie individuelle, de couple et familiale à La Ciotat et Marseille.' },
+  twitter: { card: 'summary_large_image', title: 'Nadia El Ferkane-Blanc | Thérapeute familiale systémique', description: 'Thérapie individuelle, de couple et familiale à La Ciotat et Marseille.' },
   robots: { index: true, follow: true },
 };
 export const viewport = { width: 'device-width', initialScale: 1, themeColor: '#f5f1eb' };

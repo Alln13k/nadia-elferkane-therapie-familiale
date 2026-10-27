@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { ContactBanner } from '../components/site/SiteChrome';
+import { PORTRAIT_DATA_URI } from '../components/site/assetData';
 
-const portrait = '/images/nadia-el-ferkane-blanc.png';
+const portrait = PORTRAIT_DATA_URI;
 const SERVICES = [
   ['01','Thérapie individuelle','Un espace pour déposer ce qui vous pèse et retrouver des repères qui vous correspondent.'],
   ['02','Thérapie de couple','Un accompagnement pour regarder ensemble les difficultés relationnelles et ouvrir un dialogue.'],
@@ -12,7 +13,7 @@ export default function HomePage(){
   return <main id="contenu">
     <section className="hero">
       <div className="container hero-grid">
-        <div>
+        <div className="hero-copy">
           <p className="eyebrow">Thérapie familiale systémique</p>
           <h1>Retrouver un espace pour <em>avancer ensemble.</em></h1>
           <p className="hero-lede">Je vous accueille à La Ciotat et à Marseille pour un accompagnement individuel, de couple ou familial, adapté à votre situation.</p>
